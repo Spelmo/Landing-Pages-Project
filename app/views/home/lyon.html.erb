@@ -1,2 +1,37 @@
-<h1>Home#lyon</h1>
-<p>Find me in app/views/home/lyon.html.erb</p>
+
+    <div class = "lyon">
+      <div id="index">
+
+        <h1> Apprends à coder gratuitement
+          <br> partout en France</h1>
+
+        <%= render 'shared/mailform' %>
+
+
+      </div>
+
+
+      <div id="howto">
+
+        <%= render 'shared/howtolyon' %>
+
+      </div>
+
+
+      <div id="testimony">
+
+        <%= render 'shared/testimonylyon' %>
+
+      </div>
+
+
+      <div id="register-lyon">
+
+        <h1> L'aventure te tente ? Inscris-toi à la newsletter ! </h1>
+        <div class='registerform'>
+        <%= render 'shared/mailform' %>
+        </div>
+
+      </div>
+
+</div>

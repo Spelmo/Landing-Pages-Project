@@ -13,6 +13,11 @@
   justify-content: center;
   align-items: center;
 }
+.w3-container-lyon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .w3-container > h1{
   color: #ddd6f3;
@@ -29,6 +34,16 @@
   color: linear-gradient(to right, #4CA1AF, #C4E0E5);
   background: -webkit-linear-gradient(#4CA1AF, #C4E0E5);
   background: linear-gradient(to right, #4CA1AF, #C4E0E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    margin-top: 0;
+}
+
+.w3-container-lyon> h1{
+  color: #43C6AC;
+  color: linear-gradient(to right, #43C6AC, #F8FFAE);
+  background: -webkit-linear-gradient(#43C6AC, #F8FFAE);
+  background: linear-gradient(to right, #43C6AC, #F8FFAE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     margin-top: 0;
