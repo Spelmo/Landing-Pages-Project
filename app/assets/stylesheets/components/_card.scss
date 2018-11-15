@@ -1,0 +1,52 @@
+
+//Aspect de la carte, couleur, ombre, positionnement...
+
+.card
+{
+  width: 350px;
+  height: 490px;
+  padding: 20px;
+
+  box-shadow: 1px 1px 12px rgba(66, 91, 138, .2);
+  border-radius: 2px;
+  margin: 0px 10px;
+  background-color: rgba(255, 255, 255, 1);
+
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+//l'avatar
+
+.card-avatar
+{
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+}
+
+//le titre...
+
+.card-title
+{
+  color: #ddd6f3;
+  color: linear-gradient(to right, #faaca8, #ddd6f3);
+  background: -webkit-linear-gradient(#faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+//le texte...
+
+.card-body
+{
+  text-align: justify;
+}

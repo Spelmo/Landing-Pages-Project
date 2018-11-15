@@ -1,0 +1,110 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// aspect et positionnement de la navbar
+
+.navbar
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  background-color: rgba(252, 246, 248, 1);
+  color: rgba(253, 173, 172, 1);
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+// aspect de l'avatar
+
+.navbar img
+{
+  height: 30px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px 0px;
+}
+
+// aspect du 'logo'
+.navbar-logo {
+  font-family: 'Bungee', cursive;
+  color: #ddd6f3;
+  color: linear-gradient(to right, #faaca8, #ddd6f3);
+  background: -webkit-linear-gradient(#faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+
+.navbar-logo:hover {
+  opacity : .8;
+}
+
+// Aspect du menu déroulant
+
+.navbar-right {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  background-color: rgba(252, 246, 248, .80);
+}
+
+.dropdown-content img {
+  height: 15px;
+  width: auto;
+  margin: 0;
+}
+
+.dropdown-content li {
+  opacity: 0.65
+}
+
+.dropdown-content li:hover {
+  opacity: 1
+}
+
+.dropdown-content li>a:hover {
+  color: rgba(0, 0, 0, 1)
+}
+
+.dropdown-content a {
+  color: rgba(0, 0, 0, 1);
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+.dropdown-content li
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-right:hover .dropdown-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dropdown-content ul
+{
+  margin-right: 30px;
+  padding: 0;
+}

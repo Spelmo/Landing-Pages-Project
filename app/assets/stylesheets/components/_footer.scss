@@ -1,0 +1,21 @@
+// position et aspect du footer
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+footer a {
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: .6;
+}
+
+footer a:hover {
+  opacity: 1;
+}

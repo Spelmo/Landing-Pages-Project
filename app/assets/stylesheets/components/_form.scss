@@ -1,0 +1,42 @@
+
+.inputform{
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
+  display: flex;
+  float:left;
+  margin-right: 1em;
+  border: none;
+  color: rgb(180, 180, 180);
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.btn-form {
+  border-radius: 2rem;
+  color: rgb(150, 150, 150);
+  background-color: white;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: .5rem 1rem;
+
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 1px solid transparent;
+
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+}
+
+
+.btn-form:hover {
+  box-shadow: 0 1px 2px 0 #e2daf1, 0 1px 0px 1px #e2daf1;
+}

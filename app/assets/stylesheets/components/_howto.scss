@@ -1,0 +1,52 @@
+#howto{
+  background-color: white;
+  margin: 15em 0em;
+}
+
+.w3-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w3-container > h1{
+  color: #ddd6f3;
+  color: linear-gradient(to right, #faaca8, #ddd6f3);
+  background: -webkit-linear-gradient(#faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    margin-top: 0;
+}
+
+.w3-row-padding{}
+
+.w3-third{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.w3-third > h2 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+.w3-third > p {
+  padding: 0.8em 2em;
+  margin-top: 0;
+  margin-bottom: 3em;
+}
+
+.howtoimg{
+  height: 80px;
+  margin-bottom: 0.5em;
+}
+
+.w3-third:hover{
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.w3-third:hover > img{
+  height: 85px;
+  margin-bottom: 0.2em;
+}
