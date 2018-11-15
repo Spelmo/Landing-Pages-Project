@@ -5,7 +5,7 @@ This app was designed as part of a student project for The Hacking Project. The 
 * **TEAM** : Marie-Charlotte Le Morvan (html, css, design), Charles Belpois (mailer, analytics), François De Saporta (bots)
 
 
-* **Design** : We chose not to use any bootstrap template, but rather to make our own responsive template. 1. Because MC like design and making her own things and 2. because we are unemployed and poor...
+* **Design** : We chose not to use any bootstrap template, but rather to make our own responsive template. 1. Because MC likes design and making her own things and 2. because we are unemployed and poor...
 The design is inspired from flat design and material design. We used nice UI gradients with homemade codes as a background.
 Used icons from flaticon.com
 
