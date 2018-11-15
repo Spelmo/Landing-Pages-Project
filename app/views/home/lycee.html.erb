@@ -1,2 +1,37 @@
-<h1>Home#lycee</h1>
-<p>Find me in app/views/home/lycee.html.erb</p>
+
+    <div class = "lycee">
+      <div id="index">
+
+        <h1> Apprends à coder gratuitement
+          <br>et en communauté  💻</h1>
+
+        <%= render 'shared/mailform' %>
+
+
+      </div>
+
+
+      <div id="howto">
+
+        <%= render 'shared/howtolycee' %>
+
+      </div>
+
+
+      <div id="testimony">
+
+        <%= render 'shared/testimonylycee' %>
+
+      </div>
+
+
+      <div id="register-lycee">
+
+        <h1> L'aventure te tente ? Inscris-toi à la newsletter ! 🔥 </h1>
+        <div class='registerform'>
+        <%= render 'shared/mailform' %>
+        </div>
+
+      </div>
+
+</div>

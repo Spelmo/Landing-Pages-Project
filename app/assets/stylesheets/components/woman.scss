@@ -1,0 +1,30 @@
+.women{
+  /* The image used */
+  background-image: url("background.png");
+
+  /* Set a specific height */
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+// Position des divs
+.content > div
+{
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 1.5em;
+  padding-top: 2em;
+}

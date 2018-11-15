@@ -44,6 +44,18 @@
   font-size: 15px;
 }
 
+.card-title-lycee
+{
+  color: #4CA1AF;
+  color: linear-gradient(to right, #4CA1AF, #C4E0E5);
+  background: -webkit-linear-gradient(#4CA1AF, #C4E0E5);
+  background: linear-gradient(to right, #4CA1AF, #C4E0E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 //le texte...
 
 .card-body
